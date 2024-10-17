@@ -7,6 +7,16 @@
 --cor-do-card-frente:#030637;
 --cor-do-card-costas:#FF9800;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: var(--cor-de-fundo);
     color:var(--cor-do-texto);
@@ -16,7 +26,8 @@ body{
     text-align: center;
     background-color: var(--cor-do-card-costas);
     color: var(--cor-de-fundo);
-    border:1px solid var(--cor-do-texto);
+    border:1px solid var(--cor-secundaria);
+    border-radius: 2%;
     height: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
