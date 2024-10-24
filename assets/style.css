@@ -31,6 +31,9 @@ body{
     height: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+
 }
 
 #container {
